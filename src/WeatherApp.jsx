@@ -235,7 +235,7 @@ export default function WeatherApp({ mode, toggleMode }) {
             letterSpacing: 1,
           }}
         >
-          <img src="./public/favicon.svg" alt="CloudJar" width="32" height="32" style={{ marginRight: "8px" }} /> CloudJar
+          <img src="../public/favicon.svg" alt="CloudJar" width="32" height="32" style={{ marginRight: "8px" }} /> CloudJar
         </Typography>
         <Tooltip title={`Switch to ${mode === "light" ? "dark" : "light"} mode`}>
           <IconButton
